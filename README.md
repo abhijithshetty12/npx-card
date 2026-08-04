@@ -110,7 +110,9 @@ It's fast, memorable, and showcases both your personality and technical skills.
 
 ## 📜 License
 
-This project is licensed under the **ISC License**. See the `LICENSE` file for more details.
+[![License: ISC](https://img.shields.io/badge/License-ISC-green?style=plastic)](https://github.com/abhijithshetty12/npx-card?tab=ISC-1-ov-file)
+
+This project is licensed under the **ISC License**. See the [LICENSE](https://github.com/abhijithshetty12/npx-card?tab=ISC-1-ov-file) file for full details.
 
 ---
 
