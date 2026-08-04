@@ -11,7 +11,6 @@ function displayCard() {
 
   const profileHeader = `${badge}\n\n${name} ${tag}\n${secondary('Building web experiences & open-source tools')}`;
 
-  // Keep full URLs unbroken in a single chalk call so terminals parse them cleanly
   const instagramLink = chalk.hex('#E4405F')('https://instagram.com/trulyabhijith');
   const githubLink = chalk.white.bold('https://github.com/abhijithshetty12');
   const linkedinLink = chalk.hex('#0A66C2')('https://linkedin.com/in/abhijithshetty12');
