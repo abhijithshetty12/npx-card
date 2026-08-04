@@ -1,62 +1,123 @@
 # ✨ Abhijith's NPX Card
 
-> A premium, modern CLI business card to connect with me directly via terminal
+<div align="center">
 
-[![npm](https://img.shields.io/npm/v/abhijithshetty)](https://www.npmjs.com/package/abhijithshetty)
-[![npm downloads](https://img.shields.io/npm/dm/abhijithshetty)](https://www.npmjs.com/package/abhijithshetty)
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+### A modern interactive CLI business card for developers
 
-## 🚀 Quick Start
+[![npm version](https://img.shields.io/npm/v/abhijithshetty?style=plastic&logo=npm)](https://www.npmjs.com/package/abhijithshetty)
+[![npm downloads](https://img.shields.io/npm/dm/abhijithshetty?style=plastic&logo=npm)](https://www.npmjs.com/package/abhijithshetty)
+[![License](https://img.shields.io/badge/License-ISC-green?style=plastic)](https://opensource.org/licenses/ISC)
+[![Node.js](https://img.shields.io/badge/Node.js-%3E%3D14-blue?style=plastic&logo=node.js)](https://nodejs.org)
+
+</div>
+
+---
+
+## 🚀 Run Instantly
 
 ```bash
 npx abhijithshetty
 ```
 
-## 📸 Preview
+No installation required. Simply run the command above and view my interactive developer card directly in your terminal.
 
-The final output features a premium, modern design with:
+---
 
-- 🎨 Beautiful gradient colors
-- ⚡ Interactive CLI menu
-- 🔗 Clickable links
-- 📱 Responsive terminal display
+## 📖 About
+
+**Abhijith's NPX Card** is a terminal-based interactive business card built with Node.js. It provides an engaging way for developers, recruiters, and collaborators to explore my profile, social links, projects, and resume directly from the command line.
+
+Instead of visiting a traditional portfolio website, users can instantly access my information through a single NPX command.
+
+---
 
 ## ✨ Features
 
-- 📧 **Email** - Send me an email directly
-- 📄 **Resume** - Download my latest resume
-- 🎨 **Premium Design** - Modern, colorful CLI interface
-- ⚡ **Fast** - Instant execution via npx
+* 🎨 **Modern CLI Interface** with clean layouts and vibrant styling
+* 🔗 **Clickable Links** for GitHub, LinkedIn, Instagram, and Website
+* ⚡ **Interactive Menu Navigation** powered by Inquirer
+* 📄 **Resume Download Support** directly from the terminal
+* 🚀 **Zero Installation Required** using NPX
+* 🌍 **Cross-Platform Compatibility** for Windows, macOS, and Linux
 
-## 🛠️ Tech Stack
+---
 
-- [Node.js](https://nodejs.org/)
-- [Boxen](https://www.npmjs.com/package/boxen) - Terminal boxes
-- [Chalk](https://www.npmjs.com/package/chalk) - Terminal colors
-- [Inquirer](https://www.npmjs.com/package/inquirer) - Interactive prompts
-- [Ora](https://www.npmjs.com/package/ora) - Elegant spinners
+## 📸 Preview
 
-## 📋 About
+...Updating Soon
+---
 
-This is my personal NPX business card - a creative way to share my contact information and professional details through the terminal. I've spent considerable time designing and refining this to create a memorable first impression.
+## 🛠 Tech Stack
+
+| Technology | Purpose                                 |
+| ---------- | --------------------------------------- |
+| Node.js    | JavaScript runtime                      |
+| Boxen      | Terminal layouts and containers         |
+| Chalk      | Terminal styling and colors             |
+| Inquirer   | Interactive prompts and menus           |
+| Ora        | Elegant loading spinners                |
+| Open       | Opening URLs and files across platforms |
+
+---
+
+## ⚙️ Local Development
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/abhijithshetty12/abhijithshetty.git
+cd abhijithshetty
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Run Locally
+
+```bash
+npm link
+npx abhijithshetty
+```
+
+---
 
 ## 🤝 Connect With Me
 
-- 📷 Instagram: [@trulyabhijith](https://instagram.com/trulyabhijith)
-- 💻 GitHub: [@abhijithshetty12](https://github.com/abhijithshetty12)
-- 💼 LinkedIn: [abhijithshetty12](https://linkedin.com/in/abhijithshetty12)
-- 🌐 Website: [abhijithshetty.vercel.app](https://abhijithshetty.vercel.app)
+| Platform     | Link                                                                |
+| ------------ | ------------------------------------------------------------------- |
+| 🌐 Website   | https://abhijithshetty.vercel.app                                   |
+| 💼 LinkedIn  | https://linkedin.com/in/abhijithshetty12                            |
+| 💻 GitHub    | https://github.com/abhijithshetty12                                 |
+| 📷 Instagram | https://instagram.com/trulyabhijith                                 |
+| 📧 Email     | [abhijithshetty2006@gmail.com](mailto:abhijithshetty2006@gmail.com) |
 
-## ⭐ Show Your Support
+---
 
-If you found this card interesting or useful, please consider giving it a **star** ⭐ on GitHub. Your support means a lot!
+## 💡 Why an NPX Card?
 
-## 📝 License
+An NPX card is a creative way to introduce yourself as a developer. It allows anyone to learn about you, view your work, and connect with you using a single command:
 
-ISC © [Abhijith Mahesh Shetty](https://abhijithshetty.vercel.app)
+```bash
+npx abhijithshetty
+```
+
+It's fast, memorable, and showcases both your personality and technical skills.
+
+---
+
+## 📜 License
+
+This project is licensed under the **ISC License**. See the `LICENSE` file for more details.
 
 ---
 
 <div align="center">
-  <sub>Built with ❤️ by Abhijith Shetty</sub>
+
+### ⭐ If you like this project, consider giving it a star!
+
+Made with ❤️ by **Abhijith Mahesh Shetty**
+
 </div>
