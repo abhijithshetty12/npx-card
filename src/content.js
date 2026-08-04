@@ -3,7 +3,6 @@
 const boxen = require('boxen');
 const chalk = require('chalk');
 const { primary, secondary, accent } = require('./data');
-const { createLink } = require('./data');
 
 function displayCard() {
   const badge = chalk.bgHex('#6366F1').white.bold(' SOFTWARE ENGINEER ');
@@ -12,26 +11,12 @@ function displayCard() {
 
   const profileHeader = `${badge}\n\n${name} ${tag}\n${secondary('Building web experiences & open-source tools')}`;
 
-  const instagramLink = createLink(
-    `${chalk.gray('instagram.com/')} ${chalk.hex('#E4405F').bold('trulyabhijith')}`,
-    'https://instagram.com/trulyabhijith'
-  );
-  const githubLink = createLink(
-    `${chalk.gray('github.com/')} ${chalk.white.bold('abhijithshetty12')}`,
-    'https://github.com/abhijithshetty12'
-  );
-  const linkedinLink = createLink(
-    `${chalk.gray('linkedin.com/in/')} ${chalk.hex('#0A66C2').bold('abhijithshetty12')}`,
-    'https://linkedin.com/in/abhijithshetty12'
-  );
-  const websiteLink = createLink(
-    chalk.hex('#3B82F6').underline.bold('https://abhijithshetty.vercel.app'),
-    'https://abhijithshetty.vercel.app'
-  );
-  const emailLink = createLink(
-    chalk.hex('#F59E0B').bold('abhijithshetty2006@gmail.com'),
-    'mailto:abhijithshetty2006@gmail.com'
-  );
+  // Keep full URLs unbroken in a single chalk call so terminals parse them cleanly
+  const instagramLink = chalk.hex('#E4405F')('https://instagram.com/trulyabhijith');
+  const githubLink = chalk.white.bold('https://github.com/abhijithshetty12');
+  const linkedinLink = chalk.hex('#0A66C2')('https://linkedin.com/in/abhijithshetty12');
+  const websiteLink = chalk.hex('#3B82F6').underline('https://abhijithshetty.vercel.app');
+  const emailLink = chalk.hex('#F59E0B')('mailto:abhijithshetty2006@gmail.com');
 
   const details = [
     `${chalk.bold('📷 Instagram:')}  ${instagramLink}`,
@@ -45,7 +30,7 @@ function displayCard() {
   const cardContent = [
     profileHeader,
     '',
-    chalk.hex('#374151')('─────────────── Connect & Contact ───────────────'),
+    chalk.hex('#374151')('─────────────────────────────────────────────────────────'),
     '',
     details,
     '',

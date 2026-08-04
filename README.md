@@ -2,14 +2,14 @@
 
 > A premium, modern CLI business card to connect with me directly via terminal
 
-[![npm](https://img.shields.io/npm/v/abhijith)](https://www.npmjs.com/package/abhijith)
-[![npm downloads](https://img.shields.io/npm/dm/abhijith)](https://www.npmjs.com/package/abhijith)
+[![npm](https://img.shields.io/npm/v/abhijithshetty)](https://www.npmjs.com/package/abhijithshetty)
+[![npm downloads](https://img.shields.io/npm/dm/abhijithshetty)](https://www.npmjs.com/package/abhijithshetty)
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 ## 🚀 Quick Start
 
 ```bash
-npx abhijith
+npx abhijithshetty
 ```
 
 ## 📸 Preview
@@ -42,9 +42,9 @@ This is my personal NPX business card - a creative way to share my contact infor
 
 ## 🤝 Connect With Me
 
-- 📷 Instagram: [@abhijithshetty](https://instagram.com/abhijithshetty)
+- 📷 Instagram: [@trulyabhijith](https://instagram.com/trulyabhijith)
 - 💻 GitHub: [@abhijithshetty12](https://github.com/abhijithshetty12)
-- 💼 LinkedIn: [abhijith12](https://linkedin.com/in/abhijith12)
+- 💼 LinkedIn: [abhijithshetty12](https://linkedin.com/in/abhijithshetty12)
 - 🌐 Website: [abhijithshetty.vercel.app](https://abhijithshetty.vercel.app)
 
 ## ⭐ Show Your Support
